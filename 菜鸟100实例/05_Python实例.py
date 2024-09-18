@@ -5,14 +5,17 @@
 x = input("请输入第一个数：")
 y = input("请输入第二个数：")
 z = input("请输入第三个数：")
+max_number = 0
 # 比较x,y和x,z并且交换 此时的x是最小值
 if x > y:
+    max_number = x
     x = y
-    y = x
+    y = max_number
 if x > z:
+    max_number = x
     x = z
-    z = x
-# 在判断z和y的值大小
+    z = max_number
+# 再判断z和y的值大小
 if z > y:
     print(f"这三个数从小到大分别为{x}{y}{z}")
 else:

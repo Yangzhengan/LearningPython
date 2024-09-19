@@ -10,3 +10,12 @@ elif socre >= 60:
     print("恭喜你你的成绩为B")
 else:
     print("恭喜你你的成绩为C")
+
+# 菜鸟上的一个笔记方法，方法跟实例2是同样的思路
+# i = int(input('请输入成绩：'))
+# ar = [90, 60, 0]
+# res = ['A', 'B', 'C']
+# for idx in range(0, 3):
+#     if i >= ar[idx]:
+#         print(res[idx])
+#         break

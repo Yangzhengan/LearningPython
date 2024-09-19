@@ -20,6 +20,7 @@ if z > y:
     print(f"这三个数从小到大分别为{x}{y}{z}")
 else:
     print(f"这三个数从小到大分别为{x}{z}{y}")
+
 # 菜鸟方法就是直接用list的内置函数sort进行排序，输入也是进行循环输入不用三次input
 # list1 = []
 # for i in range(3):

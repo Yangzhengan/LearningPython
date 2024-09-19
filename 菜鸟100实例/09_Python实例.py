@@ -17,3 +17,4 @@ for i in range(len(list1)):
     # 遍历列表中的元素
     print(list1[i])
     time.sleep(1)
+

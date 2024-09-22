@@ -28,8 +28,7 @@ for i in range(0, len(list_a)):
 print(f"英文字母，数字，其他字符个数分别为{count_str} {count_number} {count_space}")
 
 # 分隔符
-print("-"*50)
-
+print("-" * 50)
 
 str_a = input("请输入一行字符：")
 count_str = 0
@@ -49,7 +48,7 @@ print(f"所输入的字符串英文字母、数字、空格、其他字符的个
       f"{count_str}{count_number}{count_space}{count_other}")
 
 # 分隔符
-print("-"*50)
+print("-" * 50)
 
 # 才鸟教程里直接用的库函数，一步到位
 s = input('请输入一个字符串:\n')
